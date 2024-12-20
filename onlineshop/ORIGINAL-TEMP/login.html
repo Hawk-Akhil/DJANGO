@@ -1,0 +1,22 @@
+<html><head>
+<title>Login</title></head><body bgcolor=#E6E6FA>
+<h3 align="center"><img src=https://pngimage.net/wp-content/uploads/2018/05/as-png-8.png width=100>
+<form action='#' method="post">
+      {% csrf_token %}
+<br><br><br><br><h2><B>LOGIN</B><font size=5>
+<table align="center">
+<tr>
+<td><h2>Email
+<td><input type="email" placeholder="Enter Username" name="EMAIL" required>
+</tr>
+<tr>
+<td><h2>Password
+<td><input type="password" placeholder="Enter Password" name="PASSWORD" required>
+</tr>
+</table><br>
+<button type="submit" style="height:25px;width:150px" align="center">Login </button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"><font size=3>Remember me</font>
+    </label><br><br>
+<font size=3><a href="http://localhost:8000/submit">Don't have an account..? Register here</a>
+</html>

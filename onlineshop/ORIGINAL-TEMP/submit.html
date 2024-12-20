@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Buy now</title>
+</head>
+<body>
+<h1 align="center">
+<font size=8>
+<font color="skyblue">REGISTRATION(order summary)</font></h1>
+<h3 align="center"><img src=https://pngimage.net/wp-content/uploads/2018/05/as-png-8.png width=100>
+<form action='#' method="post">
+ {% csrf_token %}
+<br>
+<font size=5>
+<table align="center">
+<tr>
+<td><h2>Name
+<td><input type="text" name="NAME   " placeholder="Enter name" required>
+</tr>
+<tr>
+<td><h2>Email
+<td><input type="email" name="EMAIL  " placeholder=" for eg:123@gmail.com">
+</tr>
+<tr>
+<td><h2>Mobile Number
+<td><input type="text" name="MOBILE NUMBER  " placeholder="Enter mobile number" required>
+</tr>
+<tr>
+<td><h2>Detailed Address
+<td><input type="text" name="ADDRESS  "  placeholder="Enter address">
+</tr>
+<tr>
+<td><h2>Landmark
+<td><input type="text" name="LANDMARK" placeholder="Enter nearby landmark" >
+</tr>
+<tr>
+<td><h2>Pincode
+<td><input type="text" name="PINCODE" placeholder="pincode">
+</tr>
+</table>
+<br>
+<br>
+<input type="SUBMIT" value="submit" style="height:30px;width:200px">
+<br>
+<a href="http://localhost:8000/login"><h6 align="center"> already have an account? click here to login<h2>
+</a>
+</html>
